@@ -20,6 +20,12 @@ export const router = createRouter ({
             path: '/zine',
             name: 'zine',
             component: () => import ('../views/zine.vue')
+        },
+        {
+            path: '/:pathMatch(.*)*',
+            redirect: {
+                name: 'main',
+            }
         }                                
     ]
 })
