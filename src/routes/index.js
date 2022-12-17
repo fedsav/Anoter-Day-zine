@@ -2,7 +2,7 @@ import path from 'path';
 import {createRouter, createWebHistory} from 'vue-router';
 
 export const router = createRouter ({
-    history: createWebHistory(''),
+    history: createWebHistory(),
     
     routes: [
         {
