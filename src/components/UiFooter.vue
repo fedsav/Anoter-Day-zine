@@ -1,6 +1,6 @@
 <template>
   <footer class="footer">
-      КОПИРАЙТЕД 2022 ХУЙ
+      КОПИРАЙТЕД 2022
   </footer>
 </template>
 
